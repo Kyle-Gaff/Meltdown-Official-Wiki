@@ -62,5 +62,12 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     display: inline;
-    color:aliceblue
+}
+
+:link {
+    color: lime;
+}
+
+:visited{
+    color: rgba(50, 50, 50, 0.8);
 }
