@@ -15,15 +15,41 @@ body{
 }
 
 .main-content{
-    width: 100%;
+    width: 90%;
     height: 100vh;
-    background-color: rgba(50, 50, 50, 0.5);
+    background-color: rgba(50, 50, 50, 0.8);
     display: flex;
-    color: white
+    flex-direction:row;
+    color: white;
+    margin-left: 5%;
+    border-radius: 10px;
     
-    
-
    
     
+}
 
+.overlay{
+    width: 200px;
+    height:600px;
+    border: 2px solid white;
+    padding: 1px;
+    margin-left: 10%; 
+    margin-top:5%;
+    
+}
+
+.main-top{
+    margin-left: 5%;
+    margin-top: 4.2%;
+}
+
+.ti-head{
+ 
+    flex-direction: column;
+}
+
+.explain{
+    
+    flex-direction: column;
+   
 }
