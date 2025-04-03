@@ -12,19 +12,17 @@ body{
     background-size: cover;
     background-image: url(images/backdropp.jpg);
     margin: 5%;
-    flex-direction: row;
+    
 }
 
 .main-content{
     width: 90%;
     height: 100vh;
     background-color: rgba(50, 50, 50, 0.8);
-    display: flex;
-    flex-direction:column;
+    
     color: white;
     margin-left: 5%;
     border-radius: 10px;
-   
     
    
     
@@ -71,3 +69,4 @@ header{
 :visited{
     color: rgba(50, 50, 50, 0.8);
 }
+
