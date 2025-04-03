@@ -30,12 +30,11 @@ body{
     
 }
 
-.actual-infobox{
+.overlay{
     width: 200px;
     height:600px;
     border: 2px solid white;
     padding: 1px;
-    margin-left: 10%; 
     float: right;
     
     
@@ -46,9 +45,9 @@ body{
     margin-top: 4.2%;
 }
 
-.ti-head{
- 
-    flex-direction: column;
+header{
+    display: inline-block;
+    flex-direction: row;
 }
 
 .explain{
