@@ -51,8 +51,10 @@ body{
 }
 
 header{
+    width: 400px;
     display: inline-block;
     flex-direction: row;
+    margin: 10px;
 }
 
 .explain{
@@ -77,5 +79,7 @@ header{
     color: rgba(50, 50, 50, 0.8);
 }
 
-
+.Ls{
+    padding: 2%;
+}
   
