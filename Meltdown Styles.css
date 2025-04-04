@@ -1,3 +1,9 @@
+@font-face {
+    font-family: andyBold;
+    src:  url(Andy-Bold/ANDYB.TTF);
+    font-weight: bold;
+  }
+
 ul {
     list-style-type: none;
 }
@@ -13,13 +19,14 @@ body{
     background-image: url(images/backdropp.jpg);
     margin: 5%;
     
+    
 }
 
 .main-content{
     width: 90%;
     height: 100vh;
     background-color: rgba(50, 50, 50, 0.8);
-    
+    font-family: andyBold;
     color: white;
     margin-left: 5%;
     border-radius: 10px;
@@ -70,3 +77,5 @@ header{
     color: rgba(50, 50, 50, 0.8);
 }
 
+
+  
