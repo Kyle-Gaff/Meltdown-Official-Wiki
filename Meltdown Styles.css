@@ -36,7 +36,8 @@ body{
 }
 
 .overlay{
-   
+    width: 217.52px;
+    height: 480.5px;
     border: 2px solid white;
     padding: 1px;
     float: right;
