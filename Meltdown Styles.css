@@ -1,5 +1,5 @@
 @media screen and (max-width: 720px) {
-    overlay{
+    .overlay{
         float: none !important;
         flex-direction: column;
     }
