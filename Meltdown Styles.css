@@ -54,6 +54,7 @@ h1{
     float: right;
     margin-right: 5%;
     border-radius: 8px;
+    background-color: grey;
     
     
 }
@@ -145,8 +146,13 @@ header{
 }
 .active[data-tab-content]{
     display: inline-block;
+
 }
 
 .tab:hover{
     text-decoration: underline;
+}
+
+.tab.active{
+    background-color: #555555;
 }
