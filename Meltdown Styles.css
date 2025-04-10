@@ -156,3 +156,9 @@ header{
 .tab.active{
     background-color: #555555;
 }
+
+.M-box{
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
