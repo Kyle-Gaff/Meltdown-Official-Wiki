@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Meltdown Styles.css">
-    <link rel="javascript" href="java functions.java">
+    <script src="js functions.js" defer></script>
     <title>hm</title>
 </head>
 
@@ -50,14 +50,14 @@
                 </div>
 
                 <div class="modetabs">
-                    <div class="tab normal"><img alt="Classic Mode.png" src="images/12px-Classic_Mode.webp"
+                    <div class="tab normal" data-tab-target="#m-normal"><img alt="Classic Mode.png" src="images/12px-Classic_Mode.webp"
                             decoding="async" loading="lazy" width="12" height="16" data-file-width="18"
                             data-file-height="24"> Classic</div>
-                    <div class="tab expert"><img alt="Expert Mode.png" src="images/12px-Expert_Mode.webp"
+                    <div class="tab expert" data-tab-target="#m-expert"><img alt="Expert Mode.png" src="images/12px-Expert_Mode.webp"
                             decoding="async" loading="lazy" width="12" height="17" data-file-width="18"
                             data-file-height="26"> Expert
                     </div>
-                    <div class="tab master"><img alt="Master Mode.png" src="images/12px-Master_Mode.webp"
+                    <div class="tab master" data-tab-target="#m-master"><img alt="Master Mode.png" src="images/12px-Master_Mode.webp"
                             decoding="async" loading="lazy" width="12" height="17" data-file-width="18"
                             data-file-height="26"> Master
                     </div>
@@ -99,20 +99,20 @@
                     </tr>
                     <tr>
                         <th>Damage</th>
-                        <td><span class="npcstat"><span class="m-normal">50</span><span class="ssep">/</span><span
-                                    class="m-expert mode-exclusive expert"><span class="s">75</span></span><span
-                                    class="ssep">/</span><span class="m-master mode-exclusive master"><span
+                        <td><span class="npcstat"><span >50</span><span class="ssep"></span><span
+                                     data-tab-content><span class="s">75</span></span><span
+                                    class="ssep"></span><span  data-tab-content><span
                                         class="s">100</span></span></span></td>
                     </tr>
                     <tr>
                         <th>Max Life</th>
                         <td><span class="npcstat">
-                                <span class="m-normal">15000</span>
-                                <span class="ssep">/</span>
-                                <span class="m-expert mode-exclusive expert"><span class="s">19500</span>
+                                <span id="m-normal"  data-tab-content class="active">15000</span>
+                                <span class="ssep"></span>
+                                <span id="m-expert" data-tab-content><span class="s">19500</span>
                                 </span>
-                                <span class="ssep">/</span>
-                                <span class="m-master mode-exclusive master">
+                                <span class="ssep"></span>
+                                <span id="m-master" data-tab-content>
                                     <span class="s">24863</span>
                                 </span>
                             </span>

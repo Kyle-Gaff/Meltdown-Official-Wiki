@@ -140,3 +140,13 @@ header{
     border-bottom: none;
 }
 
+[data-tab-content]{
+    display:none;
+}
+.active[data-tab-content]{
+    display: inline-block;
+}
+
+.tab:hover{
+    text-decoration: underline;
+}
